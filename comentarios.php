@@ -11,7 +11,7 @@
     <title>Comentários</title>
 </head>
 <body>
-
+    <center>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 <?php
@@ -21,47 +21,31 @@ try {
 } catch(PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }
-?>
-    <center>
-<form action="index.php" method="post">
-  <div class="caixa">
-    <div class="row">
-      <div class="col-sm-1">
-        Nome:
-      </div>
-      <div class="col-sm-3">
-        <input type="text" class="form-control" id="nome" name="nome"  placeholder="Nome">
-      </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-1">
-          Mensagem:
-        </div>
-        <div class="col-sm-5">
-          <textarea class="form-control" id="mensagem" name="mensagem" rows="3"></textarea> 
-        </div>
-        
-        </div>
-        <input type="submit" name="gravar" value="Gravar" onclick="limpar()">
-</form>
+if(isset($_POST["gravar"])) {
+    $sql = "INSERT INTO tb01_comentarios
+	(tb01_nome, tb01_mensagem)
+	VALUES (?, ?)";
+    $comando = $banco->prepare($sql);
+    $comando->execute(array($_POST["nome"], $_POST["mensagem"]));
+  }
+  $dados = array(
+    "nome" => $registro["tb01_nome"],
+    "mensagem" => $registro["tb01_mensagem"],
+);
 
-</center>
-<center>
-    <a href="comentarios.php">
-<button> Ver comentários</button>
-</a>
-</center>
-
-    <script>
-        function limpar(){
-
-var nome = $("#nome");
-var mensagem = $("#mensagem");
-nome.val("");
-mensagem.val("");
+        $sql = "SELECT * FROM tb01_comentarios";
+        $consulta = $banco->prepare($sql);
+        $consulta ->execute();    
+        ($registro = $consulta -> fetch()); 
+        echo '<div class="caixa">';
+        foreach ($dados as &$valor){
+                
+                echo"<h3>".$valor."</h3>";
+                echo '<p id="pe">'.$valor[1].'</p>';  
+                echo '</div>';
         }
-        </script>
-        
+        ?>
 
+    </center>
 </body>
 </html>
