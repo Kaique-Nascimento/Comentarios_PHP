@@ -5,10 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
   </head>
     <title>Comentários</title>
+    <style>
+        .caixa{
+  background-color: #B9D7EA;
+  border-radius: 20px;
+  margin-top: 10rem;
+  padding: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-style: solid;
+  border-color: #EBD6B9;
+  border-width: 1px;
+}
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(212,208,200,1) 84%, rgba(212,208,200,1) 100%);
+}
+#pe{
+  margin-left: 50px;
+}
+    </style>
 </head>
 <body>
 
