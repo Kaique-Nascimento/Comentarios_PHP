@@ -1,4 +1,16 @@
-# Comentarios_PHP
-comentarios
-Trabalho que fiz para treinar o meu PHP
-usando PHP, CSS, SQL e muito ódio no coração
+# Comentários PHP
+
+Código PHP escrito para testes de PHP
+
+## Feito com:
+>
+ -PHP
+ 
+## Como usar
+Conecta no banco de dados, cria as tabela lá e vê se funciona
+
+## Versão
+ 0.0.-1
+
+## Autor
+Feito com muito ódio por mim
