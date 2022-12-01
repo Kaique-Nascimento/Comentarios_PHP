@@ -10,7 +10,7 @@ Código PHP escrito para testes de PHP
 Digite nome e comentário, aperte em "Gravar" e depois em Ver "Comentário" para ver o Comentário!
 
 ## Versão
- 1.0.1
+ 1.0.4
  
 ## Alterações
 - Mudanças no CSS;
@@ -18,7 +18,11 @@ Digite nome e comentário, aperte em "Gravar" e depois em Ver "Comentário" para
 - Alteração no PHP;
 - Tá funcionando;
 - Adicionado novo plano de fundo funcional;
+- Icon da Web;
+- Etc.
 
+## Modo de usar
+![](img/demo.gif)
 
 ## Autor
 Feito com muito ódio por mim
