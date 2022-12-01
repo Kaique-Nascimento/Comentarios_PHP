@@ -52,7 +52,7 @@ h1, #mensagem{
 a{
   text-decoration: none;
 }
-button{
-  margin-top: 2vh;
+button, h1{
+  margin-top: 5vh;
 }
 
