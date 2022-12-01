@@ -3,8 +3,10 @@
 Código PHP escrito para testes de PHP
 
 ## Feito com:
->
- -PHP
+>- HTML 5;
+>- CSS 3;
+>- PHP 8.0.26;
+>- Bootstrap 5.2.0.
  
 ## Como usar
 Digite nome e comentário, aperte em "Gravar" e depois em "Ver comentários" para ver o Comentário!
