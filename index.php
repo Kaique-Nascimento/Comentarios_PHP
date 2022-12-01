@@ -13,7 +13,7 @@ VALUES (?, ?)";
 }
 ?>  
 <h1> Envie seu comentário!</h1>
-<form action="index.php" method="post">
+<form action="index.php" method="post" autocomplete="off">
   <div class="caixa">
     <div class="row">
       <div class="col-sm-1">
@@ -28,7 +28,7 @@ VALUES (?, ?)";
           Mensagem:
         </div>
         <div class="col-sm-5">
-          <textarea class="form-control" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" required></textarea> 
+          <textarea class="form-control" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" required style="color: black"></textarea> 
         </div>
         
         </div>

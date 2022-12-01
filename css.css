@@ -22,7 +22,7 @@ body{
   place-items: center;
   align-content: center;
 }
-button, input[type=submit], input[type=text],textarea{
+button, input[type=submit], input[type=text], textarea{
   display: grid;
   place-items: center;
   align-content: center;
