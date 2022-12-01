@@ -7,7 +7,7 @@ Código PHP escrito para testes de PHP
  -PHP
  
 ## Como usar
-Digite nome e comentário, aperte em "Gravar" e depois em Ver "Comentário" para ver o Comentário!
+Digite nome e comentário, aperte em "Gravar" e depois em "Ver comentários" para ver o Comentário!
 
 ## Versão
  1.0.4
