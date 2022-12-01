@@ -7,10 +7,18 @@ Código PHP escrito para testes de PHP
  -PHP
  
 ## Como usar
-Conecta no banco de dados, cria as tabela lá e vê se funciona
+Digite nome e comentário, aperte em "Gravar" e depois em Ver "Comentário" para ver o Comentário!
 
 ## Versão
- 0.0.-1
+ 1.0.1
+ 
+## Alterações
+- Mudanças no CSS;
+- Tá mais bonitinho;
+- Alteração no PHP;
+- Tá funcionando;
+- Adicionado novo plano de fundo funcional;
+
 
 ## Autor
 Feito com muito ódio por mim
