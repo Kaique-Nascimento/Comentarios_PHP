@@ -42,7 +42,7 @@ button:hover, input[type=submit]:hover{
   background-color: #968B89;
   transition: all 0.5s;
 } 
-h1, #pe{
+h1, #mensagem{
   color: white;
   display: grid;
   place-items: center;
