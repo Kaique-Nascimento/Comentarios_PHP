@@ -50,6 +50,7 @@ var nome = $("#nome");
 var mensagem = $("#mensagem");
 nome.val("");
 mensagem.val("");
+alert("Mensagem enviada!")
         }
         </script>
      
