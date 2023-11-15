@@ -9,7 +9,7 @@ Código PHP escrito para testes de PHP
 >- Bootstrap 5.2.0.
  
 ## Como usar
-Extrai o banco de dados "tb_comentarios". Digite nome e comentário, aperte em "Gravar" e depois em "Ver comentários" para ver o Comentário!
+Extraia o banco de dados "tb_comentarios". Digite nome e comentário, aperte em "Gravar" e depois em "Ver comentários" para ver o Comentário!
 
 ## Versão
  1.0.4
